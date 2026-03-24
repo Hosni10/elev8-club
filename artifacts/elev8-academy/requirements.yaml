@@ -1,0 +1,12 @@
+packages:
+  "framer-motion": "For high-performance scroll and layout animations"
+  "i18next": "Internationalization core"
+  "react-i18next": "React bindings for i18next to support EN/AR toggling"
+images:
+  - path: "artifacts/elev8-academy/public/images/logo.png"
+    description: "Minimalist bold sports logo 'ELEV8' with an electric green accent, isolated on pitch black background"
+    aspect_ratio: "1:1"
+notes:
+  - The application is a frontend-only marketing site.
+  - The language switcher updates the document `dir` attribute and toggles fonts via CSS.
+  - Form submission in the contact section is mocked.

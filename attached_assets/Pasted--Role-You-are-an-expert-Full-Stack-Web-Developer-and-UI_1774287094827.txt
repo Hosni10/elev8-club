@@ -1,0 +1,249 @@
+
+Role: You are an expert Full-Stack Web Developer and UI/UX Designer specializing in sports academy platforms.
+
+Project Objective: Build a high-performance, modern, and visually striking introductory website for a Professional Football Academy. The site must be localized in English (LTR) and Arabic (RTL) with a seamless language switcher.
+
+Target Audience: Parents looking for professional coaching for their children and aspiring athletes.
+
+1. Visual Identity & UI Style
+Niche Aesthetic: Use a "High-Performance Sports" theme. Deep charcoal or pitch-black backgrounds with high-contrast "Electric Green" or "Trophy Gold" accents.
+
+Typography: Bold, italicized sans-serif headers (e.g., Montserrat or Archivo) to convey movement and speed.
+
+UI Elements: Use glassmorphism for cards, hover-triggered glow effects on buttons, and high-quality image placeholders for action shots.
+
+Layout: A clean, mobile-first responsive grid.
+
+2. Core Features & Pages
+Hero Section: High-impact headline, a CTA for "Join the Academy," and a background video/image placeholder of football training.
+
+Coach’s Profile (The Founder): A dedicated section highlighting the head coach's "Certified Professional" status. Include a "Credentials Grid" for coaching certificates.
+
+Programs/Courses: Cards displaying different age groups (e.g., U-10, U-15, Elite Pro) with pricing and schedules.
+
+Gallery & Testimonials: A slider for training photos and social proof from parents/players.
+
+Contact & Location: Integrated Google Maps placeholder and a functional lead-capture form.
+
+3. Technical Requirements
+Localization: Implement a robust i18n (Internationalization) system. Ensure the layout flips correctly for Arabic (RTL support, adjusting padding/margins/font-directions).
+
+Tech Stack: Use React with Tailwind CSS. Ensure animations are smooth using Framer Motion (for entrance reveals).
+
+Navigation: A sticky header with a prominent Language Switcher toggle (EN/AR).
+
+4. Content Strategy
+Please generate professional placeholder copy in both English and Arabic that emphasizes discipline, skill development, and professional certification.
+
+and here is the content 
+# 🌐 English Version
+
+## Who We Are
+
+### Elev8 Football Academy
+
+We are a **science-led football academy** that takes a **holistic approach** to player development. Our work is guided by a clear **football identity** and a consistent **game idea** that shapes every session.
+
+---
+
+### Our Story
+
+With over a decade of experience in the UAE, our founder built teams from scratch, winning championships in the **Man City League** and **Junior Premier League** – including undefeated seasons – and competing in the **DOFA Dubai final** against global academies like Man City and Barça.
+
+**Our coaching staff brings real playing and coaching experience across four countries: Egypt, Spain, Kuwait, and the UAE.** This international background gives us deep insight into different football cultures, but our approach is not about mixing styles randomly. Instead, we have studied **three distinct training philosophies**, and we understand how to **progress through them** — knowing **when**, **where**, and **which** approach to apply based on the player, the group, and the stage of development.
+
+---
+
+### Elite Coaching & Performance Team
+
+Our coaching staff holds internationally recognized qualifications:
+
+- **Master in High Performance Football Coaching** (FSI – Spain)
+- **UEFA B License**
+- **AFC C License**
+- Diplomas in **Strength & Conditioning**, **Performance Enhancement**, and **Physical Preparation**
+
+This combination of academic knowledge and practical experience enables us to design training that develops every dimension of a player: technical, physical, tactical, psychological, and creative.
+
+---
+
+### Our Holistic Methodology
+
+We follow a **holistic, player-centered methodology**. We have studied **three distinct training philosophies**, and we understand how to **progress through them** — knowing **when**, **where**, and **which** approach to apply based on the player, the group, and the stage of development. This structured progression allows us to build players step by step, ensuring they are always challenged at the right level.
+
+Our training is guided by a clear **football identity** and a consistent **game idea**. Every exercise, every tactical principle, and every decision on the pitch aligns with how we want to play. This ensures that players don’t just learn isolated skills; they learn to understand the game and make intelligent decisions within our system.
+
+Every player receives an individualized **dose** of training and the right **stimulus** to develop all the **structures** that make a complete athlete:
+
+- Technical & Skill
+- Physical & Strength & Conditioning
+- Tactical Awareness & Game Understanding
+- Psychological & Mental
+- Creativity & Confidence
+
+We never ask a player to perform an action in a match that they haven’t practiced repeatedly in training with enough variations to build real experience.
+
+To make this possible, we maintain a **player-to-coach ratio of 1:12**. Small groups ensure focused coaching and genuine progress.
+
+---
+
+### What Makes Us Different
+
+- **🌍 Playing & coaching experience in Egypt, Spain, Kuwait, and the UAE** – We’ve lived and worked in diverse football cultures.
+- **Not a one-size-fits-all academy** – We adapt our methodology to each player and group.
+- **Three studied philosophies** – We don’t just “mix” styles; we progress through them deliberately.
+- **Clear identity & game idea** – Every session reflects how we want to play.
+- **Proven track record** – Championships and undefeated seasons in a competitive market (UAE).
+- **Elite coaching qualifications** – UEFA, AFC, FSI Master, and specialized diplomas.
+- **Small groups (1:12)** – Real individual attention.
+- **International exposure** – Annual camps in the UAE and Europe.
+
+---
+
+### A Clear Pathway for Every Age
+
+We structure our development pathway according to age and ability:
+
+- **U8** – Fun & fundamentals (ball control, receiving, passing)
+- **U10** – Basic tactics & decision‑making
+- **U12–U14** – Physical preparation, advanced tactics, competition readiness
+- **Elite Teams** – Selected players compete in official leagues and gain international exposure
+
+Every player follows a plan tailored to their level and commitment. Not everyone will follow the same path, but each will receive the right environment to grow.
+
+---
+
+### Proven Track Record
+
+Our achievements in the UAE speak for themselves:
+
+- **U11** – Junior Premier League champions (Division 2)
+- **U13** – 3rd place in Man City League
+- **U15** – Complete team transformation in 2 months, DOFA quarter‑finalist
+- **U16** – Undefeated Man City League champions (Division 1), Junior Premier League champions, DOFA finalists
+- **U17** – Undefeated Man City League U18 champions (Division 1), DOFA finalists & cup semi‑finalists
+
+---
+
+### International Exposure
+
+We organize annual camps in the **UAE and Europe**, giving our most dedicated players the chance to compete abroad, experience different football cultures, and open doors to scholarships or professional opportunities.
+
+---
+
+### Partnership Opportunity
+
+We are ready to establish and manage a professional football academy at your facility in **New Cairo** or **6th October**. We provide the full system: coaching staff, training methodology, player development, and operational management.
+
+---
+
+📞 **+201111566623**  
+📧 **elevatefootballacademyuae@gmail.com**  
+📍 **New Cairo, Egypt**
+
+---
+
+# 🇪🇬 النسخة العربية
+
+## من نحن
+
+### أكاديمية Elev8
+
+نحن أكاديمية كرة قدم تعمل بالعلوم الرياضية، ونتبنى **نهجًا شموليًا (holistic)** في تطوير اللاعب. عملنا يستند إلى **هوية كروية** واضحة و **فكرة لعب** ثابتة توجه كل تمرين.
+
+---
+
+### قصتنا
+
+بخبرة تزيد عن ١٠ سنوات في الإمارات، قاد مؤسسنا فرقًا بدأت من الصفر حتى حصدت بطولات في دوري مان سيتي والجونيور بريمير ليج بدون هزيمة، ووصلت لنهائي دبي ضد أكاديميات عالمية مثل مان سيتي وبارسا.
+
+**فريقنا الفني يمتلك خبرات لعب وتدريب حقيقية في أربع دول: مصر، إسبانيا، الكويت، والإمارات.** هذا التنوع يمنحنا فهمًا عميقًا لثقافات كروية مختلفة، لكن نهجنا لا يقوم على خلط الأساليب عشوائيًا. نحن درسنا **ثلاثة أنواع من فلسفات التدريب**، ونفهم **كيفية التدرج بينها** — ونعرف **إمتى** و **أين** و **أي** منهج نستخدم بناءً على اللاعب، والمجموعة، ومرحلة التطوير.
+
+---
+
+### الكادر التدريبي المتميز
+
+فريقنا الفني حاصل على أعلى الشهادات الدولية:
+
+- ماجستير في تدريب الأداء العالي (FSI – إسبانيا)
+- رخصة UEFA B
+- رخصة AFC C
+- دبلومات متخصصة في الإعداد البدني والقوة، تحسين الأداء، والتأهيل البدني
+
+هذا المزيج من المعرفة الأكاديمية والخبرة العملية يمكننا من تصميم تدريبات تنمي كل جوانب اللاعب: المهارة، البدنية، التكتيك، الجانب النفسي، والإبداع.
+
+---
+
+### منهجيتنا الشمولية
+
+نتبع **منهجية شمولية (holistic) تركز على اللاعب**. لقد درسنا **ثلاثة أنواع من فلسفات التدريب**، ونفهم **كيفية التدرج بينها** — ونعرف **إمتى** و **أين** و **أي** منهج نستخدم بناءً على اللاعب، والمجموعة، ومرحلة التطوير. هذا التدرج المنظم يمكننا من بناء اللاعبين خطوة بخطوة، مع ضمان أنهم دائمًا في مستوى التحدي المناسب.
+
+تدريباتنا تستند إلى **هوية كروية** واضحة و **فكرة لعب** ثابتة. كل تمرين، كل مبدأ تكتيكي، وكل قرار في الملعب يتوافق مع أسلوب اللعب الذي نبنيه. هذا يضمن أن اللاعبين لا يتعلمون مهارات منعزلة فحسب، بل يتعلمون فهم اللعبة واتخاذ قرارات ذكية ضمن نظامنا.
+
+كل لاعب يحصل على **جرعة تدريب مناسبة** و **تحفيز** لتطوير كل العناصر التي تصنع لاعبًا متكاملًا:
+
+- المهارة والتكنيك
+- اللياقة والإعداد البدني
+- الذكاء التكتيكي وفهم اللعب
+- الجانب النفسي والذهني
+- الإبداع والثقة
+
+لا نطلب من لاعب تنفيذ أي واجب في المباراة لم يتدرب عليه من قبل بطرق متعددة تكفي لاكتساب الخبرة الحقيقية.
+
+لتحقيق ذلك، نعتمد **نسبة مدرب إلى لاعب ١:١٢**، مما يتيح التركيز الكامل على كل لاعب وتقدمه.
+
+---
+
+### ما الذي يفرقنا؟
+
+- **🌍 خبرات لعب وتدريب في مصر، إسبانيا، الكويت، والإمارات** – عشنا واشتغلنا في ثقافات كروية متنوعة.
+- **لست أكاديمية بنظام واحد** – نكيف منهجيتنا حسب كل لاعب ومجموعة.
+- **ثلاث فلسفات تمت دراستها** – لا نخلط الأساليب عشوائيًا، بل نتدرج فيها بشكل مقصود.
+- **هوية وفكرة لعب واضحة** – كل تمرين يعكس أسلوب لعبنا.
+- **سجل حافل** – بطولات وموسم بدون هزيمة في سوق تنافسي (الإمارات).
+- **مؤهلات تدريبية عالمية** – UEFA، AFC، ماجستير FSI، دبلومات متخصصة.
+- **مجموعات صغيرة (١:١٢)** – اهتمام فردي حقيقي.
+- **احتكاك دولي** – معسكرات سنوية في الإمارات وأوروبا.
+
+---
+
+### مسار تطويري واضح لكل فئة عمرية
+
+نقسم مسار التطوير حسب السن والقدرات:
+
+- **تحت 6-8 سنوات** – المتعة والأساسيات (التحكم، الاستلام، التمرير)
+- **تحت 10 سنوات** – التكتيك البسيط واتخاذ القرار
+- **تحت ١٢–١٤ سنة** – الإعداد البدني، التكتيك المتقدم، التأهيل للمنافسات
+- **الفرق النخبة (Elite)** – نخبة اللاعبين تشارك في دوري رسمي وتخضع لمعسكرات دولية
+
+كل لاعب يتبع خطة تتناسب مع مستواه والتزامه. ليس كل اللاعبين سيسيرون في المسار نفسه، لكن كل واحد سيجد البيئة المناسبة للتطور.
+
+---
+
+### إنجازاتنا
+
+سجلنا في الإمارات يشهد بالنتائج:
+
+- **تحت ١١** – بطل دوري الجونيور بريمير ليج (الدرجة الثانية)
+- **تحت ١٣** – المركز الثالث في دوري مان سيتي
+- **تحت ١٥** – تطوير الفريق بالكامل في شهرين، ربع نهائي DOFA
+- **تحت ١٦** – بطل دوري مان سيتي (الدرجة الأولى بدون هزيمة)، بطل دوري الجونيور بريمير ليج، وصيف DOFA
+- **تحت ١٧** – بطل دوري مان سيتي تحت ١٨ (بدون هزيمة)، وصيف DOFA، نصف نهائي كأس DOFA
+
+---
+
+### فرص احتكاك دولية
+
+ننظم معسكرات سنوية في **الإمارات وأوروبا**، حيث تتاح للاعبين المتميزين فرصة المنافسة في الخارج، والتعرف على ثقافات كروية مختلفة، وفتح أبواب المنح الدراسية أو الاحتراف.
+
+---
+
+### شراكة احترافية
+
+نحن على استعداد لإنشاء وإدارة أكاديمية كرة قدم متكاملة في منشأتك بالقاهرة الجديدة أو ٦ أكتوبر. نقدم النظام المتكامل: الكادر التدريبي، المنهجية، تطوير اللاعبين، والإدارة التشغيلية.
+
+---
+
+📞 **+201111566623**  
+📧 **elevatefootballacademyuae@gmail.com**  
+📍 **القاهرة الجديدة، مصر**

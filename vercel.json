@@ -1,0 +1,12 @@
+{
+  "buildCommand": "pnpm --filter @workspace/elev8-academy run build",
+  "outputDirectory": "artifacts/elev8-academy/dist/public",
+  "installCommand": "pnpm install",
+  "framework": null,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ],
+  "env": {
+    "BASE_PATH": "/"
+  }
+}
