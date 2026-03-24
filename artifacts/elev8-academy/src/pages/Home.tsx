@@ -1,14 +1,13 @@
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { motion } from 'framer-motion';
+import { motion, type Variants } from 'framer-motion';
 import { 
   Trophy, Globe2, Users, Target, Activity, Brain, Lightbulb, 
   CheckCircle2, MapPin, Mail, Phone, ChevronRight 
 } from 'lucide-react';
 import { Navbar } from '@/components/Navbar';
 
-// Reuseable animation variant
-const fadeUp = {
+const fadeUp: Variants = {
   hidden: { opacity: 0, y: 40 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } }
 };
