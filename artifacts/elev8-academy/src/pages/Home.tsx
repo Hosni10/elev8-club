@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion, type Variants } from 'framer-motion';
 import { 
-  Trophy, Globe2, Users, Target, Activity, Brain, Lightbulb, 
+  Trophy, Globe2, Users, Target, Activity, Brain, Lightbulb, Shield, Dumbbell,
   CheckCircle2, MapPin, Mail, Phone, ChevronRight 
 } from 'lucide-react';
 import { Navbar } from '@/components/Navbar';
@@ -157,12 +157,15 @@ export default function Home() {
             <h2 className="text-4xl md:text-5xl font-black text-white uppercase italic">
               {t('methodology.title')}
             </h2>
+            <p className="text-lg text-gray-300 mt-4 max-w-3xl mx-auto font-medium">
+              {t('methodology.subhead')}
+            </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {(t('methodology.pillars', { returnObjects: true }) as Array<{title: string, desc: string}>).map((pillar, idx) => {
-              const icons = [Target, Activity, Brain, Lightbulb, Trophy];
-              const Icon = icons[idx];
+              const icons = [Target, Brain, Activity, Users, Shield, Dumbbell, Lightbulb, Trophy];
+              const Icon = icons[idx] ?? Target;
               return (
                 <motion.div 
                   key={idx}
@@ -239,7 +242,7 @@ export default function Home() {
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {(t('programs.levels', { returnObjects: true }) as Array<{title: string, subtitle: string}>).map((prog, idx) => (
+            {(t('programs.levels', { returnObjects: true }) as Array<{title: string, subtitle: string, desc: string}>).map((prog, idx) => (
               <motion.div 
                 key={idx}
                 initial={{ opacity: 0, scale: 0.95 }}
@@ -252,6 +255,7 @@ export default function Home() {
                 <div className="glass-card p-10 relative z-10 h-full flex flex-col justify-center border border-white/10 group-hover:border-primary/50 transition-colors">
                   <h3 className="text-5xl font-black text-white mb-4 group-hover:text-primary transition-colors">{prog.title}</h3>
                   <p className="text-xl text-gray-300 font-bold">{prog.subtitle}</p>
+                  <p className="text-base text-gray-400 mt-4 leading-relaxed">{prog.desc}</p>
                   
                   <div className={`mt-8 w-12 h-12 rounded-full border-2 border-white/20 flex items-center justify-center group-hover:border-primary group-hover:bg-primary transition-all self-start ${isRtl ? 'rotate-180' : ''}`}>
                     <ChevronRight className="w-6 h-6 text-white group-hover:text-black" />
@@ -294,10 +298,13 @@ export default function Home() {
                 {t('diff.title')}
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {(t('diff.items', { returnObjects: true }) as string[]).map((item, idx) => (
-                  <div key={idx} className="glass-card p-4 rounded-lg flex items-center gap-3">
-                    <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0" />
-                    <span className="text-sm font-bold text-gray-200">{item}</span>
+                {(t('diff.items', { returnObjects: true }) as Array<{title: string, desc: string}>).map((item, idx) => (
+                  <div key={idx} className="glass-card p-5 rounded-lg flex items-start gap-3">
+                    <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                    <div>
+                      <h3 className="text-sm font-bold text-gray-100">{item.title}</h3>
+                      <p className="text-sm text-gray-400 mt-1 leading-relaxed">{item.desc}</p>
+                    </div>
                   </div>
                 ))}
               </div>
