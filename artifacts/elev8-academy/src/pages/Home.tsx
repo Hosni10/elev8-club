@@ -25,12 +25,12 @@ export default function Home() {
         {/* football training soccer player dribbling */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&q=80&w=1920" 
-            alt="Football training" 
-            className="w-full h-full object-cover object-top opacity-40"
+            src={`${import.meta.env.BASE_URL}images/website 1.jpg`} 
+            alt="Football training - kids football training" 
+            className="w-full h-full object-cover object-top opacity-70"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-transparent"></div>
-          <div className="absolute inset-0 bg-gradient-to-r from-background via-transparent to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-background/75 via-background/35 to-background/10"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-background/45 via-transparent to-transparent"></div>
         </div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mt-12">
@@ -122,12 +122,12 @@ export default function Home() {
               className="lg:w-1/2"
             >
               {/* football boots ball */}
-              <div className="relative rounded-3xl overflow-hidden shadow-[0_0_50px_rgba(0,0,0,0.5)]">
-                <div className="absolute inset-0 bg-primary/20 mix-blend-overlay z-10"></div>
+              <div className="relative rounded-3xl overflow-hidden shadow-[0_0_50px_rgba(0,0,0,0.5)] h-[280px] sm:h-[360px] lg:h-[420px]">
+                <div className="absolute inset-0 bg-primary/10 mix-blend-overlay z-10"></div>
                 <img 
-                  src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&q=80&w=1000" 
-                  alt="Football" 
-                  className="w-full h-auto object-cover hover:scale-105 transition-transform duration-700"
+                  src={`${import.meta.env.BASE_URL}images/website 4.jpg`} 
+                  alt="Our story - kids football training" 
+                  className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-700"
                 />
               </div>
             </motion.div>
